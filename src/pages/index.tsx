@@ -1,3 +1,9 @@
+import { Page } from "@components/Page";
+
 export default function Index() {
-  return <h1 className="flex h-full items-center justify-center text-5xl font-bold">Hello Next.js!</h1>;
+  return (
+    <Page title="Home">
+      <h1 className="flex-center h-full text-5xl font-bold">Hello Next.js!</h1>
+    </Page>
+  );
 }
