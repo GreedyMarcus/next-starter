@@ -1,11 +1,13 @@
+/// <reference types="cypress" />
+
 declare global {
   namespace Cypress {
     interface Chainable {
-      getDataCy(value: string): Chainable<JQuery<HTMLElement>>;
+      getByDataCy(value: string): Chainable<JQuery<HTMLElement>>;
     }
   }
 }
 
-Cypress.Commands.add("getDataCy", (value) => cy.get(`[data-cy=${value}]`));
+Cypress.Commands.add("getByDataCy", (value) => cy.get(`[data-cy=${value}]`));
 
 export {};
