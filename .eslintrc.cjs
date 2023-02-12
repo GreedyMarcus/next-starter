@@ -1,6 +1,6 @@
-{
-  "extends": ["next"],
-  "rules": {
+module.exports = {
+  extends: ["next", "prettier"],
+  rules: {
     "no-console": "warn",
     "no-debugger": "warn",
     "no-extra-boolean-cast": "error",
@@ -8,6 +8,5 @@
     "no-empty-function": "error",
     "no-useless-escape": "error",
     "react/display-name": "off",
-    "react-hooks/exhaustive-deps": "off"
-  }
-}
+  },
+};
