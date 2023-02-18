@@ -10,7 +10,6 @@ module.exports = createJestConfig({
   testEnvironment: "jest-environment-jsdom",
   moduleDirectories: ["node_modules"],
   moduleNameMapper: {
-    "^@api(.*)$": "<rootDir>/api$1",
     "^@components(.*)$": "<rootDir>/components$1",
     "^@hooks(.*)$": "<rootDir>/hooks$1",
     "^@styles(.*)$": "<rootDir>/styles$1",

@@ -21,7 +21,6 @@
     "emitDecoratorMetadata": true,
     "baseUrl": "src",
     "paths": {
-      "@api/*": ["api/*"],
       "@components/*": ["components/*"],
       "@hooks/*": ["hooks/*"],
       "@styles/*": ["styles/*"],
