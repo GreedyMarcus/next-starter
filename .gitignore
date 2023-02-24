@@ -8,6 +8,7 @@
 
 # Next.js
 /.next/
+/.swc/
 /out/
 
 # Production
